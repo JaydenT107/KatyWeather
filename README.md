@@ -46,11 +46,11 @@ This project utilizes the following skills:
 - Set up an EventBridge rule to trigger the Lambda function every hour for weather updates and every 12 hours for forecast data.
 
 ### 2. **WeatherAPI Integration**
-- Sign up at [WeatherAPI](https://weatherapi.com) and obtain an API key.
+- Sign up at https://openweathermap.org/ and obtain an API key.
 - In your Lambda function, fetch the weather data for the last 12 hours and the 5-day forecast, then store it in an S3 bucket.
 
 ### 3. **Amazon S3**
-- Set up an S3 bucket to store the weather data fetched from WeatherAPI.
+- Set up an S3 bucket to store the weather data fetched from Openweathermap.
 - Configure the Lambda function to store the weather data in the S3 bucket.
 
 ### 4. **Make.com Integration**
