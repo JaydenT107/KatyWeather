@@ -1,6 +1,6 @@
 # KatyWeather
 
-This Python script predicts weather conditions for the next 5 days and provides a historical view of the past 12 hours. It leverages WeatherAPI for real-time weather data, AWS Lambda for serverless execution, and Make.com for automating workflows. The script pulls data from WeatherAPI, stores it in an S3 bucket, and visualizes it in a Google Sheet.
+This Python script predicts weather conditions for the next 5 days and provides a historical view of the past 12 hours. It leverages WeatherAPI for real-time weather data, AWS Lambda for serverless execution, and Make.com for automating workflows. The script pulls data from WeatherAPI, stores it in an S3 bucket, and imported it into a Google Sheet, which is used for visualization on a Google Site: https://sites.google.com/view/katyweather/home.
 
 Additionally, AI is incorporated to provide descriptive insights into the forecast for the next 5 days, helping users understand weather patterns beyond raw data.
 
